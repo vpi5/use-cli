@@ -1,0 +1,27 @@
+{
+  "name": "use-cli",
+  "version": "1.0.0",
+  "description": "常用项目架构",
+  "bin": {
+    "use-cli": "bin/use-cli"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "cli",
+    "use-cli"
+  ],
+  "author": "lxx",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "download-git-repo": "^2.0.0",
+    "fs-extra": "^8.0.1",
+    "inquirer": "^6.3.1",
+    "inquirer-select-line": "^1.1.3",
+    "mem-fs": "^1.1.3",
+    "mem-fs-editor": "^6.0.0",
+    "ora": "^3.4.0"
+  }
+}
